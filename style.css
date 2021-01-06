@@ -14,14 +14,13 @@ body{
 
 header{
 	background:#F56262;
-	position:relative;
 }
 
 .slicknav_menu {
 	font-size: 16px;
 	background: #F56262;
 	padding: 5px;
-	display:none;
+	display: none;
 }
 
 .slicknav_menu .slicknav_menutxt {
@@ -229,11 +228,12 @@ header .menu-area ul li a:hover{
 	border-radius:5px 5px 0 0;
 	display: block;
 	margin: 0 auto;
+	position: relative;
 }
 
 .star {
-	position: relative;
-	bottom: 9px;
+	position: absolute;
+	bottom: 0px;
 	left: 96px;
 }
 .sub2-4b h4{
@@ -261,11 +261,9 @@ header .menu-area ul li a:hover{
 	background:#F0F0F0;
 	display: block;
 	margin: 0 auto;
-	position: relative;
 }
 
-.sab-5{
-}
+
 .sub-5b ul{
 	list-style:none;
 	margin-top: 0px;
@@ -394,7 +392,7 @@ footer a:hover{
  /* scroller */ 
 .scroll{
 	position:fixed;
-	top:360px;
+	top:460px;
 	right:50px;
 }
 
@@ -411,7 +409,7 @@ footer a:hover{
 }
 .scroll a:hover{
 	background:#ddd;
-	color:black;
+	color:red;
 	
 }
 							/* manu */
@@ -419,8 +417,9 @@ footer a:hover{
 	background:#F56262;
 	position:fixed;
 	top:0px;
+	left:0;
 	width:100%;
-	color:block;
+	color:black;
 	display:none;
 	height:73px;
 }
@@ -472,15 +471,14 @@ footer a:hover{
 
 header .menu-area{
 	display:none;
+
 }
-header .logo-area {
-	float:left;
+header .logo-area{
+	position: absolute;
+	top:-90px;
 }
-.logo-area img {
-	display: block;
-	position: fixed;
-	top: 8px;
-}
+
+
 .slicknav_menu {
 	display:block;
 }
@@ -489,35 +487,32 @@ header .logo-area {
 	width: 1.125em;
 	height: 2.875em;
 	margin: .188em 0 0 .438em;
+	position: relative;
+	
 }
+
 .sub-5b {
 	height: auto;
 	width: 231px;
 	background: #F0F0F0;
 	display: block;
 	margin: 0 auto;
-	position: relative;
 	margin-bottom:20px;
 }
 .header{
-	
-	display:none;
+	visibility: hidden;
 }
-.header .hide{
-	display:none;
-}
+
 .header .logo-area{
 	margin-left:110px;
-	display:none;
+	visibility: hidden;
 }
 
 .header .menu-area ul{
 	list-style:none;
 }
 
-.logo-area img{
-	display:block;
-}
+
 
 
 footer .a{
